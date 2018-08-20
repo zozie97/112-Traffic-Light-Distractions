@@ -1,0 +1,212 @@
+* {
+			margin-top:5px;
+			padding:0px;
+		}
+		body {
+			text-align: center;
+		}
+		#wrapper {
+    		min-height: 100%;
+    		height: auto;
+    		width: auto;
+    		background-color: white;
+    		padding-left:20px;
+    		padding-right:20px;
+    		margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			
+		}
+		#column1 {
+			background-color: white;
+		}
+		#title {
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 10px;
+		}
+		#header {
+    		background-color: white;
+    		width: auto;
+    		height: auto;
+    		float: right;
+    		margin-right: 10px;	
+		}
+
+		#navigation {
+    		background-color: white;
+   		    width: auto;
+    		height: auto;
+    		text-align: center;
+    		padding-top: 2%;
+
+    		
+		}
+		#column2 {
+    		height: 570px;
+    		width: auto;
+    		background-color: white;
+    		padding: 10px;
+    		margin: 10px;
+    		margin-top: 20px;
+    		padding-top: 50px;
+    		padding-bottom: 50px;
+    		text-align: center;
+    		
+		}
+		#columnPoem {
+    		height: auto;
+    		width: 450px;
+    		float: left;
+    		margin-left: 120px;
+    		margin-top: 10px;
+    		padding-top: 30px;
+    		padding-bottom: 50px;
+    		text-align: left;
+    		display: inline;
+    		
+		}
+		#columnPoem2 {
+    		height: auto;
+    		width: 50%;
+    		float: right;
+    		margin-top: 10px;
+    		padding-top: 30px;
+    		margin-left: 20px;
+    		padding-bottom: 50px;
+    		text-align: left;
+    		display: inline;
+    		
+		}
+		ul { 
+			list-style-type:none; 
+			text-align:left;
+			font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+			padding-bottom: 0.5%;
+		} 
+		
+		li { 
+			display: inline;
+			float: center;
+			width: auto; 
+			height: auto;
+			font-size: 25px;
+			padding-left: 0.75%;
+			padding-bottom: ;
+			text-decoration: none;
+			color: black;
+		} 
+		
+		a:link,a:visited { 
+			color: black; 
+			text-align:center; ;
+			text-decoration:none; 
+		} 
+		
+		a:hover,a:active { 
+			color: grey; 
+		}
+
+		p {
+			text-align: center;
+			font-size: 22px;
+			font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+			padding-bottom: 3%;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+		#poem{
+			text-align: center;
+			font-size: 18px;
+			font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+			padding-bottom: 3%;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+		h1 {
+			text-align:center;
+			color: black;
+			font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+			margin-top: 15px;
+		}
+		h2 {
+			text-align:center;
+			text-decoration: underline;
+			font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+			padding-top: 2%;
+		}
+		h3 {
+			text-align:center;
+			text-decoration: none;
+			font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		}
+		button {
+			background-color: white; 
+		    border: gray;
+		    border-radius: 50%;
+		    width: 150px;
+		    height: 150px;
+		    color: black;
+		    margin: 1%;
+		    text-align: center;
+		    display: inline-block;
+		    font-size: 20px;
+		    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		}
+		a.button2 {
+			background-color: white; 
+		    border: gray;
+		    border-radius: 50%;
+		    width: 150px;
+		    height: 150px;
+		    color: black;
+		    margin: 1%;
+		    text-align: center;
+
+		    display: inline-block;
+		    font-size: 20px;
+		    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		}
+		a.button3 {
+			background-color: white; 
+		    border: gray;
+		    border-radius: 50%;
+		    width: 150px;
+		    height: 150px;
+		    color: black;
+		    margin: 1%;
+		    text-align: center;
+		    display: inline-block;
+		    font-size: 20px;
+		    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		}
+		a.buttonD {
+			background-color: white; 
+		    border: gray;
+		    border-radius: 50%;
+		    width: 220px;
+		    height: 220px;
+		    color: black;
+		    margin: 1%;
+		    margin-top: 200px;
+		    text-align: center;
+		    display: inline-block;
+		    font-size: 20px;
+		    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+		}
+
+		button:hover {
+		    background-color: #ffa8b5; 
+		    color: #707070;
+		}
+		a.button2:hover {
+		    background-color: #ffe0a8; 
+		    color: #707070;
+		}
+		a.button3:hover {
+		    background-color: #d7fcb5; 
+		    color: #707070;
+		}
+
+		
+		

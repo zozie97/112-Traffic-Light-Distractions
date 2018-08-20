@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+
+
+<title>Traffic Light Distractions</title>
+</head><!-- end head tag -->
+<body>
+
+<div id="wrapper">
+
+	<div id="column1">
+	
+		<div id="header">
+			<a href="index.html">
+				<h1>T R A F F I C - L I G H T - D I S T R A C T I O N S </h1>
+			</a>
+		</div><!-- end header div -->
+
+
+		<div id="navigation">
+			<ul>
+
+				<li><a href="page1.html">Description</a></li>
+				<li><a href="page2.html">Distractions</a></li>
+
+			</ul><!-- end unordered list tag -->
+		</div><!-- end navigation div -->
+
+	</div><!-- end column1 div -->
+
+	<div id="column2" style="background-image:url('images/blurred2.png')">
+
+		<h2>Distraction 1 - Have fun and draw an abstract picture!</h2>
+		
+			<script> //javascript in p5.js to create the ellipses that draw with your mouse
+				function setup() {
+					var canvas = createCanvas(1250, 490);
+					canvas.parent('column2');
+				}
+				function draw() {
+					noStroke();
+					fill(random(0,0),random(100,255), random(100,255));
+					ellipse(mouseX, mouseY, random(25,50),random(25,50) );
+				}
+			</script>
+		
+
+		</div><!-- end column2 div -->
+
+</div> <!-- end wrapper div -->
+
+
+</body> <!-- end body tag -->
+</html> <!-- end html tag -->
